@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Thu Jun 06 10:52:59 IST 2024<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>1112</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.query.named.NamedObjectRepository category">org.hibernate.query.named.NamedObjectRepository</td>
+<td title="Message">Checking 0 named SQL queries</td>
+</tr>
+
+<tr>
+<td>1124</td>
+<td title="main thread">main</td>
+<td title="Level">INFO</td>
+<td title="org.hibernate.orm.connections.access category">org.hibernate.orm.connections.access</td>
+<td title="Message">HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@10e56da9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.</td>
+</tr>
+
+<tr>
+<td>1157</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.mapping.Table category">org.hibernate.mapping.Table</td>
+<td title="Message">No alter strings for table : Book</td>
+</tr>
+
+<tr>
+<td>1157</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.mapping.Table category">org.hibernate.mapping.Table</td>
+<td title="Message">No alter strings for table : Book_SEQ</td>
+</tr>
+
+<tr>
+<td>1167</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.internal.SessionFactoryRegistry category">org.hibernate.internal.SessionFactoryRegistry</td>
+<td title="Message">Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@70c491b8</td>
+</tr>
+
+<tr>
+<td>1167</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.internal.SessionFactoryRegistry category">org.hibernate.internal.SessionFactoryRegistry</td>
+<td title="Message">Registering SessionFactory: 68766ca9-edeb-4167-bdb7-a8875e6ff9d8 (&lt;unnamed&gt;)</td>
+</tr>
+
+<tr>
+<td>1167</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.internal.SessionFactoryRegistry category">org.hibernate.internal.SessionFactoryRegistry</td>
+<td title="Message">Not binding SessionFactory to JNDI, no JNDI name configured</td>
+</tr>
+
+<tr>
+<td>1167</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.internal.SessionFactoryImpl category">org.hibernate.internal.SessionFactoryImpl</td>
+<td title="Message">Instantiated SessionFactory</td>
+</tr>
+
+<tr>
+<td>1187</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.orm.sql.exec category">org.hibernate.orm.sql.exec</td>
+<td title="Message">Skipping reading Query result cache data: cache-enabled = false, cache-mode = IGNORE</td>
+</tr>
+
+<tr>
+<td>1192</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.orm.results category">org.hibernate.orm.results</td>
+<td title="Message">Initializer list:
+	  com.wipro.entity.Book -&gt; EntityResultInitializer(com.wipro.entity.Book)@598722341 (SingleTableEntityPersister(com.wipro.entity.Book))
+</td>
+</tr>
+
+<tr>
+<td>1194</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.SQL category">org.hibernate.SQL</td>
+<td title="Message">select b1_0.isbn,b1_0.author,b1_0.price,b1_0.publishDate,b1_0.title from Book b1_0 where b1_0.isbn=?</td>
+</tr>
+
+<tr>
+<td>1207</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.orm.results.loading.entity category">org.hibernate.orm.results.loading.entity</td>
+<td title="Message">(EntityResultInitializer) Hydrated EntityKey (com.wipro.entity.Book): 1</td>
+</tr>
+
+<tr>
+<td>1208</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.orm.results.loading.entity category">org.hibernate.orm.results.loading.entity</td>
+<td title="Message">(EntityResultInitializer) Created new entity instance [com.wipro.entity.Book#1] : 275569096</td>
+</tr>
+
+<tr>
+<td>1208</td>
+<td title="main thread">main</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="org.hibernate.orm.results category">org.hibernate.orm.results</td>
+<td title="Message">Extracted JDBC value [1] - [Stephen]</td>
+</tr>
